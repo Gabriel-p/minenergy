@@ -71,3 +71,14 @@ def energy(x, y, method='log'):
     z = np.nansum(dxy) / (n * m) - np.nansum(dx) / n**2 - np.nansum(dy) / m**2
     # z = ((n*m)/(n+m)) * z # ref. SR
     return z
+
+
+if __name__ == '__main__':
+
+    x1, x2, x3 = np.random.uniform(0., 1., (3, 100))
+    y1, y2, y3 = np.random.uniform(10., 20., (3, 100))
+
+    x = np.c_[x1, x2, x3]
+    y = np.c_[y1, y2, y3]
+    aa = estat(x, y)
+    print("MinEnergy test, pval={:.3f}, energ={:.3f}".format(aa[0], aa[1]))
