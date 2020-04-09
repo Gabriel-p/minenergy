@@ -191,7 +191,7 @@ ________________________________________________________________________________
 [13]: https://www.sciencedirect.com/science/article/pii/S0304407608002054
 [14]: https://github.com/brian-lau/multdist
 [15]: https://github.com/brian-lau/highdim
-[16]: http://adsabs.harvard.edu/abs/2005NIMPA.537..626
+[16]: https://www.sciencedirect.com/science/article/pii/S0168900204019576
 [17]: http://www.sciencedirect.com/science/article/pii/S0378375813000633
 [18]: https://github.com/mariarizzo/energy
 [19]: https://cloud.r-project.org/web/packages/energy/index.html
